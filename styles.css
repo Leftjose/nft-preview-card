@@ -3,18 +3,59 @@ body {
 
 }
 
+
+/* .Card contains the color of the Card background and centers the card on the page */
 .Card {
     background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 .nft-name {
+    /* Position of nft name */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
     color: hsl(0, 0%, 100%);
+   
 }
 
 .nft-description {
+
+    /* Position of Discription */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+    font-size: 18px;
 
     color: hsl(215, 51%, 70%);
 
 }
 
-.
+.eth-price {
+    /* Position */
+position: relative;
+    /* Put Icon and price on the same line */
+}
+
+.time-left {
+    /* Position */
+position: relative;
+
+    /* Put Icon and time on the same line */
+}
+
+/* Need line to Divide for Creator / Author */
+
+.line {
+
+}
+
+.creator-icon {
+    /* Put Image and Creator name on the same line */
+}
+
+
